@@ -12,24 +12,24 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Hamza Akbar",
+  title: "Hi all, I'm Hamza",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "HamzaAkbar067",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:hakbar067@gmail.com",
+  linkedin: "https://www.linkedin.com/in/hamza-akbar-57845b171/",
+  github: "https://github.com/HamzaAkbar067",
+  // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
@@ -105,48 +105,59 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "RWTH Aachen Universityy",
+    subHeader: "Master's in Data Science",
+    duration: "October 2020 - October 2023",
     desc: "",
-    grade: "Grade A",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Bahauddin Zakariya University",
+    subHeader: "Bachelor's in Computer Science ",
+    duration: "October 2014 - October 2018",
+    desc: "",
     descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
+    role: "Software Developer",
+    company: "Indurad GmbH",
     companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    date: "April 2022 - Present",
+    desc: "In my role, I design front-end libraries and create reusable code for our sensor product web interface, enhancing app components to increase the performance. I also focus on creating a scalable app architecture with APIs to support our product's growth. My work ensures an efficient and responsive UI, aligning with the company's long-term objectives.",
+    descBullets: ["TypeScript / JavaSctipt","React.js / Next.js / Redux / React Router / ANTD / Styled Components","Node.js / SQL / Axios / WebSocket /  Middleware Implementation ",]
+  },
+  {
+    role: "Frontend Developer",
+    company: "Map Intelligence Agency",
+    companyLogo: "/img/icons/common/meganos.png",
+    date: "March 2021 - April 2022",
+    desc: "In my role, I specialize in implementing web applications and developing unit tests to ensure the seamless functionality of mobility monitor features. I actively contribute to the evolution of our products by incorporating new features aligned with business requirements. Collaborating closely with a dynamic team of backend developers, UX designers, product managers, and other stakeholders, I prioritize effective communication and teamwork to ensure the successful integration of mobility monitor functionalities. Additionally, my responsibilities extend to building scalable API solutions, leveraging my expertise to derive robust and efficient user interfaces. This comprehensive approach allows me to play a key role in the development lifecycle, from feature implementation to fostering collaborative relationships across diverse teams",
+    descBullets: ["TypeScript / JavaSctipt","React.js / Vue.js / MobX / Redux / Hooks / ANTD / Styled Components",
+      "GraphQL / Webpack / Babel / ESLint / Prettier / Jest / Storybook"
+  ]
+  }
+  ,
+  {
+    role: "Full Stack Developer",
+    company: "Xcademyy",
+    companyLogo: "/img/icons/common/meganos.png",
+    date: "Feb 2020 - Aug 2020",
+    desc: "In my role, I played a pivotal part in enhancing our mission-critical external web application by identifying and implementing crucial code improvements. These efforts resulted in a notable improvement in system performance and reduced response times, ultimately delivering effective business solutions for end-users. Gathering client-side requirements, I translated them into user-friendly solutions and streamlined the system by seamlessly integrating with third-party services and external APIs within our mission-critical single-page application. Additionally, I successfully implemented and integrated payment gateway systems and messaging features, contributing to the overall functionality of the web application. Further, I designed and implemented generic algorithms for hundreds of cloud applications, ensuring efficient capture of user activities. My involvement extended to playing a key role in the system architecture design, contributing to the comprehensive development and optimization of our technology stack.",
+    descBullets: ["TypeScript / JavaSctipt / React.js / Graphql / Webpack / State & Life Cycle / Routing / Redux / Pubnub chat / Responsive Designs.",
+      "Node.js / Express.js / MongoDB / Mongoose / RESTful APIs / GraphQL / JWT / Webpack / Babel / ESLint / Prettier / Postman / ORMs / Data Storage / Queries."]
   },
   {
     role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
-  },
+    company: "Fabulous Technologies",
+    companyLogo: "/img/icons/common/meganos.png",
+    date: "Feb 2018 - Jan 2020",
+    desc: "In my role, I work on enhancing the code quality for external websites by implementing common coding standards. This initiative aimed to reduce code complexity and improve the maintainability of shared libraries and components. Actively engaging in peer code reviews, I contributed to maintaining consistency in code, tests, and design within our team. Additionally, I focused on fine-tuning legacy data storage and search queries for high-volume applications, leading to a notable increase in performance. My commitment extended to exploring cutting-edge front-end technologies to accelerate the development of our external web app.",
+    descBullets: [ "TypeScript / JavaSctipt / React / Redux / CORS Development / Routing / Styling / HTML / CSS / SAAS / Bootstrap / JQuery / XML / JSON / JSX / AJAX / Unit testing / Postman / Error Handling",
+      "NodeJS / ExpressJS / RESTful APIs and API Communications / Authentication and Authorization / SQL/NoSQL Database / Database Migration System / Payment Gateway / Backend Tests / Unit Testing / GIT / Docker"]
+  }
 ];
 
 export const projects: ProjectType[] = [
@@ -196,7 +207,7 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Hamza Akbar",
   description: greetings.description,
   author: "Hanzla Tauqeer",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
