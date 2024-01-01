@@ -15,8 +15,8 @@ export const greetings: GreetingsType = {
   name: "Hamza Akbar",
   title: "Hi all, I'm Hamza",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+    "I'm a passionate Software developer with experience developing Full Stack web applications with JavaScript, TypeScript, React.js, Next.js, Node.js and other Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+  // resumeLink: "#",
 };
 
 export const openSource = {
@@ -36,7 +36,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
@@ -44,36 +44,49 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building RESTful APIs in Node.js & Java Sprint Boot"),
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
+          skillName: "TypeScript",
+          iconifyTag: "logos:typescript",
+        },
+        {
+          skillName: "Java",
+          iconifyTag: "logos:java",
+        },
+        {
+          skillName: "Python",
+          iconifyTag: "logos:python",
+        },
+        {
+          skillName: "PHP",
+          iconifyTag: "logos:php",
+        },
+        {
           skillName: "Reactjs",
           iconifyTag: "vscode-icons:file-type-reactjs",
+        }        ,
+
+        {
+          skillName: "Nodejs",
+          iconifyTag: "logos:nodejs",
         },
         {
           skillName: "Nextjs",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "Angular",
+          iconifyTag: "logos:angular",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "AWS",
+          iconifyTag: "logos:aws",
         },
         {
           skillName: "Github",
@@ -91,11 +104,11 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    progressPercentage: "90", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
-    progressPercentage: "90",
+    progressPercentage: "75",
   },
   {
     Stack: "Programming",
@@ -124,17 +137,17 @@ export const experience: ExperienceType[] = [
   {
     role: "Software Developer",
     company: "Indurad GmbH",
-    companyLogo: "/img/icons/common/meganos.png",
+    companyLogo: "/img/icons/common/indurad_logo.jpg",
     date: "April 2022 - Present",
-    desc: "In my role, I design front-end libraries and create reusable code for our sensor product web interface, enhancing app components to increase the performance. I also focus on creating a scalable app architecture with APIs to support our product's growth. My work ensures an efficient and responsive UI, aligning with the company's long-term objectives.",
+    desc: "I design front-end libraries and create reusable code for our sensor product web interface, enhancing app components to increase the performance. I also focus on creating a scalable app architecture with APIs to support our product's growth. My work ensures an efficient and responsive UI, aligning with the company's long-term objectives.",
     descBullets: ["TypeScript / JavaSctipt","React.js / Next.js / Redux / React Router / ANTD / Styled Components","Node.js / SQL / Axios / WebSocket /  Middleware Implementation ",]
   },
   {
     role: "Frontend Developer",
     company: "Map Intelligence Agency",
-    companyLogo: "/img/icons/common/meganos.png",
+    companyLogo: "/img/icons/common/map_intelligence_agency_logo.jpg",
     date: "March 2021 - April 2022",
-    desc: "In my role, I specialize in implementing web applications and developing unit tests to ensure the seamless functionality of mobility monitor features. I actively contribute to the evolution of our products by incorporating new features aligned with business requirements. Collaborating closely with a dynamic team of backend developers, UX designers, product managers, and other stakeholders, I prioritize effective communication and teamwork to ensure the successful integration of mobility monitor functionalities. Additionally, my responsibilities extend to building scalable API solutions, leveraging my expertise to derive robust and efficient user interfaces. This comprehensive approach allows me to play a key role in the development lifecycle, from feature implementation to fostering collaborative relationships across diverse teams",
+    desc: "I specialize in implementing web applications and developing unit tests to ensure the seamless functionality of mobility monitor features. I actively contribute to the evolution of our products by incorporating new features aligned with business requirements. Collaborating closely with a dynamic team of backend developers, UX designers, product managers, and other stakeholders, I prioritize effective communication and teamwork to ensure the successful integration of mobility monitor functionalities. Additionally, my responsibilities extend to building scalable API solutions, leveraging my expertise to derive robust and efficient user interfaces. This comprehensive approach allows me to play a key role in the development lifecycle, from feature implementation to fostering collaborative relationships across diverse teams",
     descBullets: ["TypeScript / JavaSctipt","React.js / Vue.js / MobX / Redux / Hooks / ANTD / Styled Components",
       "GraphQL / Webpack / Babel / ESLint / Prettier / Jest / Storybook"
   ]
@@ -143,7 +156,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
     company: "Xcademyy",
-    companyLogo: "/img/icons/common/meganos.png",
+    companyLogo: "/img/icons/common/xcad-klogo.jpeg",
     date: "Feb 2020 - Aug 2020",
     desc: "In my role, I played a pivotal part in enhancing our mission-critical external web application by identifying and implementing crucial code improvements. These efforts resulted in a notable improvement in system performance and reduced response times, ultimately delivering effective business solutions for end-users. Gathering client-side requirements, I translated them into user-friendly solutions and streamlined the system by seamlessly integrating with third-party services and external APIs within our mission-critical single-page application. Additionally, I successfully implemented and integrated payment gateway systems and messaging features, contributing to the overall functionality of the web application. Further, I designed and implemented generic algorithms for hundreds of cloud applications, ensuring efficient capture of user activities. My involvement extended to playing a key role in the system architecture design, contributing to the comprehensive development and optimization of our technology stack.",
     descBullets: ["TypeScript / JavaSctipt / React.js / Graphql / Webpack / State & Life Cycle / Routing / Redux / Pubnub chat / Responsive Designs.",
@@ -152,9 +165,9 @@ export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
     company: "Fabulous Technologies",
-    companyLogo: "/img/icons/common/meganos.png",
+    companyLogo: "/img/icons/common/ftl.jpg",
     date: "Feb 2018 - Jan 2020",
-    desc: "In my role, I work on enhancing the code quality for external websites by implementing common coding standards. This initiative aimed to reduce code complexity and improve the maintainability of shared libraries and components. Actively engaging in peer code reviews, I contributed to maintaining consistency in code, tests, and design within our team. Additionally, I focused on fine-tuning legacy data storage and search queries for high-volume applications, leading to a notable increase in performance. My commitment extended to exploring cutting-edge front-end technologies to accelerate the development of our external web app.",
+    desc: "I work on enhancing the code quality for external websites by implementing common coding standards. This initiative aimed to reduce code complexity and improve the maintainability of shared libraries and components. Actively engaging in peer code reviews, I contributed to maintaining consistency in code, tests, and design within our team. Additionally, I focused on fine-tuning legacy data storage and search queries for high-volume applications, leading to a notable increase in performance. My commitment extended to exploring cutting-edge front-end technologies to accelerate the development of our external web app.",
     descBullets: [ "TypeScript / JavaSctipt / React / Redux / CORS Development / Routing / Styling / HTML / CSS / SAAS / Bootstrap / JQuery / XML / JSON / JSX / AJAX / Unit testing / Postman / Error Handling",
       "NodeJS / ExpressJS / RESTful APIs and API Communications / Authentication and Authorization / SQL/NoSQL Database / Database Migration System / Payment Gateway / Backend Tests / Unit Testing / GIT / Docker"]
   }
