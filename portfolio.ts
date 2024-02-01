@@ -29,7 +29,7 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:hakbar067@gmail.com",
   linkedin: "https://www.linkedin.com/in/hamza-akbar-57845b171/",
   github: "https://github.com/HamzaAkbar067",
-  instagram: "https://www.instagram.com",
+  // instagram: "https://www.instagram.com",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
