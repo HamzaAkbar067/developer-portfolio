@@ -11,7 +11,7 @@ const SocialLinks = () => {
           color="white"
           rel="noopener"
           aria-label="Email"
-          href={socialLinks.email}  // Fix: Use the email address as the href
+          href={socialLinks.email}
           target="_blank"
         >
           <span className="btn-inner--icon">
